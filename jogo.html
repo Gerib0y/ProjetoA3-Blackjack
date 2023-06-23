@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="blackjack.js"></script>
+</head>
+<body>
+    <div class="circulo-cima"></div>
+
+    <div class="titulo-fundo">
+        <h1>♢♠ BLACKJACK ♣♡</h1>
+    </div>
+
+
+    <br>
+    <br>
+    <h1>Dealer: <span id="dealer-sum"></span></h1>
+    <div id="cartas-dealer">
+        <img id="virada" src="./cartas/BACK.png">
+    </div>
+
+    
+    <br>
+    <br>
+    <h1>Você: <span id="jogador-sum"></span></h1>
+    <div id="cartas-jogador"></div>
+
+    <br>
+    <button id="jogar">Jogar</button>
+    <button id="manter">Manter</button>
+
+    <h2 id="resultado"></h2>
+    <button id="recomeçar" style="display: none;">Recomeçar</button>
+
+    <div class="placar">
+        <h2>PLACAR</h2>
+        <div class="vitorias">
+            <h3>Vitórias: </h3>
+            <h3 id="contadorVitorias">0</h3>
+        </div>
+
+        <div class="derrotas">
+            <h3>Derrotas: </h3>
+            <h3 id="contadorDerrotas">0</h3>
+        </div>
+    </div>
+
+    <div class="texto-fundo">
+        <h1>Dealer must stand on 17 and must draw to 16</h1>
+    </div>
+
+    <a id="voltar" href="inicio.html">🆇</a>
+
+    <div class="quadrado-baixo"></div>
+</div>
+</body>
+</html>
